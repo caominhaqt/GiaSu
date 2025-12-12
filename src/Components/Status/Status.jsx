@@ -5,13 +5,15 @@ const Status = () => {
     return (
         <div className='Status'>
             <div className='User'>
-                <div className='Shortname'></div>
+                <div className='Shortname'>
+                    <span style={{ fontSize: "36px", fontWeight: "bold", color: "gray" }}>PH</span>
+                </div>
                 <div className='User_Name'>
                     <div className='Gmail'>
                         <span style={{ fontSize: "28px", fontWeight: "bold" }}>@123</span>
                     </div>
                     <div className='Role'>
-                        <span style={{ fontSize: "28px", fontWeight: "bold" }}>Phụ Huynh</span>
+                        <span style={{ fontSize: "28px"}}>Phụ Huynh</span>
                     </div>
                 </div>
             </div>
