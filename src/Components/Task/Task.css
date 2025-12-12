@@ -1,0 +1,44 @@
+.Task{
+    width: 520px;
+    height: 90px;
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.ShortName{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:beige;
+}
+.Info{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Info_Left{
+    height: 80px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    justify-content: center;
+    gap: 20px;
+}
+.Info_Right{
+    height: 32px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

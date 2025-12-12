@@ -1,0 +1,85 @@
+.Home{
+    width: 543px;
+    height: 847px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+.Title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddItem{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -100px;
+}
+.AddItem:hover{
+    cursor: pointer;
+}
+.Content{
+    min-height: 75%;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.Menu{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    border-top: 0.75px solid black;
+}
+.Fix{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    border: 2px solid black;
+}
+.HomePage{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:  white;
+}
+.HomePage:hover{
+    cursor: pointer;
+    
+}
+.Acc{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Acc:hover{
+    cursor: pointer;
+    
+}
